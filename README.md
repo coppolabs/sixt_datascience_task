@@ -8,8 +8,8 @@ This repository contains the complete solution for the Sixt Data Scientist candi
 
 ```text
 ├── README.md                 # Executive summary and deployment documentation
-├── notebook.ipynb            # Core development notebook with code and inline commentary
-├── notebook.html             # Rendered HTML export of the complete execution
+├── SIXT_DataScience_Task202402.ipynb            # Core development notebook with code and inline commentary
+├── SIXT_DataScience_Task202402.html             # Rendered HTML export of the complete execution
 ├── requirements.txt          # Python 3 virtual environment dependency freeze
 └── data/
     └── day.csv               # Raw daily aggregate bike sharing dataset
