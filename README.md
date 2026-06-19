@@ -19,7 +19,11 @@ This repository contains the complete solution for the Sixt Data Scientist candi
 
 ## Executive Summary
 
-The primary objective was to architect a model to predict daily bike rental demand (`cnt`). The final deployment recommendation is the **Gradient Boosting Regressor**.
+The primary objective was to architect a model to predict daily bike rental demand. 
+
+Following the initial assignment requirements, a baseline Random Forest Regressor was developed. A subsequent time-series residual analysis revealed structural opportunities for feature engineering to alleviate systematic biases. To achieve a comprehensive architectural comparison, both an optimized Random Forest and a sequential Gradient Boosting Regressor were trained on this enhanced dataset. 
+
+Based on an accuracy and stability analysis, the final deployment recommendation is the **Gradient Boosting Regressor**.
 
 ### Performance Overview
 
